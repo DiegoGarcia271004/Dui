@@ -66,7 +66,7 @@ int comparar(char Dui)
 {
     
     ifstream lectura;
-    
+    //El programa no pasa de aca, debido a que no se abre el archivo correspondiente .txt
     lectura.open("Dui2.txt",ios::in);
 
     char duiArchivado[8];
